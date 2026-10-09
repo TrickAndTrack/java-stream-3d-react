@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import type { CSSProperties } from 'react';
-import * as THREE from '../node_modules/@types/three';
+import * as THREE from "three";
+import type { CSSProperties } from "react";
 
 export type SceneToken = {
   id: number;
